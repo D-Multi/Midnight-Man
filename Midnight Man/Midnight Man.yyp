@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03bf00d8-9797-4026-9e06-7a44d559bd70",
+            "Value": {
+                "id": "05fd23bf-d589-4c4c-920b-5672ae20bc35",
+                "resourcePath": "scripts\\draw_clock\\draw_clock.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0676be94-ea32-4536-ac96-f6ddd9bd4495",
             "Value": {
                 "id": "acea53dc-80c1-4b74-b728-5c122d13b02d",
@@ -108,6 +116,30 @@
                 "id": "83b09edf-9b83-4ef3-bd50-29215b58f6ef",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "64fb6331-ec77-45dc-9258-95c902ff66a4",
+            "Value": {
+                "id": "8b566f1e-c95b-431c-a876-3ea5668928f3",
+                "resourcePath": "objects\\obj_GUI\\obj_GUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c837c7d-fd0b-45ad-88fd-d7c63a2ce6ba",
+            "Value": {
+                "id": "e0d00826-4a1c-424c-9654-bdca1cce803e",
+                "resourcePath": "sprites\\spr_player_invince\\spr_player_invince.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f10f9e1-66eb-44ac-a4ea-05f27a616483",
+            "Value": {
+                "id": "7c493a97-8c45-4b05-8d11-7e7144c1a8aa",
+                "resourcePath": "scripts\\draw_pie\\draw_pie.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -233,7 +265,9 @@
     ],
     "script_order": [
         "e58595b0-6069-44da-8afa-3b25a3e837db",
-        "0676be94-ea32-4536-ac96-f6ddd9bd4495"
+        "0676be94-ea32-4536-ac96-f6ddd9bd4495",
+        "6f10f9e1-66eb-44ac-a4ea-05f27a616483",
+        "03bf00d8-9797-4026-9e06-7a44d559bd70"
     ],
     "tutorial": ""
 }

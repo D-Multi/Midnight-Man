@@ -12,7 +12,7 @@ key_down = keyboard_check(vk_down);
 // ----- Left & Right Input -----
 xspd = key_right - key_left; // Since left values are negative and right values or positive, we can subtract them to get a total value. Keyboard_check always returns binary values (0 or 1).
 
-// Collisions
+// Horizontal Collisions
 if (place_meeting(x+(xspd*hspd),y,obj_solid))
 {
 	while (!place_meeting(x+sign(xspd),y,obj_solid))
@@ -33,7 +33,7 @@ if (place_meeting(x,y+1,obj_solid)) && (key_up)
 	yspd = -jump_height;	
 }
  
-// Collisions
+// Vertical Collisions
 if (place_meeting(x,y+(yspd*vspd),obj_solid))
 {
 	while (!place_meeting(x,y+sign(yspd),obj_solid))
@@ -47,3 +47,53 @@ if (place_meeting(x,y+(yspd*vspd),obj_solid))
 // xspd and yspd were just placeholder variables for the input. Now we use them.
 x += xspd*hspd;
 y += yspd*vspd;
+
+/// Power-up Use
+if (currentPower == 0) // Speed
+{
+	hspd = 15;
+}
+else
+{
+	hspd = 5;	
+}
+
+if (currentPower == 2) // Invisibility
+{
+	image_alpha = 0.1;	
+}
+else
+{
+	image_alpha = 1;	
+}
+
+if (currentPower == 5) // Invincibility
+{
+	sprite_index = spr_player_invince;
+	image_speed = 10;
+}
+else
+{
+	sprite_index = spr_player;
+	image_speed = 2.5;	
+}
+
+if (currentPower == 6) // Jump
+{
+	jump_height = 80;	
+}
+else
+{
+	jump_height = 50;	
+}
+
+if (currentPower == 9) // Teleportation
+{
+	if (mouse_check_button(mb_left)) && (can_teleport) && (distance_to_point(mouse_x, mouse_y) <= 500)
+	{
+		x = mouse_x;
+		y = mouse_y;
+		can_teleport = false;
+		alarm[1] = 600;
+	}
+}
