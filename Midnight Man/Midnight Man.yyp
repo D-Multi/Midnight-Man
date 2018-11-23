@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0676be94-ea32-4536-ac96-f6ddd9bd4495",
+            "Value": {
+                "id": "acea53dc-80c1-4b74-b728-5c122d13b02d",
+                "resourcePath": "scripts\\retrieve_power_attr\\retrieve_power_attr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "229403d1-d049-4e72-8cef-b4d88d1d7c87",
             "Value": {
                 "id": "3dca3146-03f5-4e11-b13c-7c3db6202bd5",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "e58595b0-6069-44da-8afa-3b25a3e837db",
+            "Value": {
+                "id": "998aa2d5-2f75-4237-8825-ad958a6e4176",
+                "resourcePath": "scripts\\powerchng\\powerchng.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ed6accb5-efe5-4468-b0f0-31052a548dc1",
             "Value": {
                 "id": "375ad47c-e206-479c-bfef-761e3b38709a",
@@ -205,10 +221,19 @@
                 "resourcePath": "views\\f2a605b7-9087-401f-ba7a-55e20d1e56c1.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fae62ea0-b61d-4022-ae5b-acbd7715516b",
+            "Value": {
+                "id": "cd6aad02-3760-40a4-87a9-67c00492dc02",
+                "resourcePath": "objects\\obj_gamestart\\obj_gamestart.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        
+        "e58595b0-6069-44da-8afa-3b25a3e837db",
+        "0676be94-ea32-4536-ac96-f6ddd9bd4495"
     ],
     "tutorial": ""
 }
