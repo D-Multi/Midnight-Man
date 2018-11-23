@@ -64,7 +64,7 @@ if (currentPower == 2) // Invisibility
 }
 else
 {
-	image_alpha = 1;	
+	image_alpha = 1;	 
 }
 
 if (currentPower == 5) // Invincibility
@@ -80,7 +80,7 @@ else
 
 if (currentPower == 6) // Jump
 {
-	jump_height = 80;	
+	jump_height = 150;	
 }
 else
 {

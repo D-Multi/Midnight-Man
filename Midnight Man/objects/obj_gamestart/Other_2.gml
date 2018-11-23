@@ -94,3 +94,5 @@ ds_map_add(temp_power, "weakness", "Can only teleport every 10 seconds, and with
 ds_map_add(temp_power, "Description", "N/A"); // Description
 ds_map_add(temp_power, "strength", 100); // Rating of power. Called strength.
 ds_map_add_map(powers,9,temp_power);
+
+powerchng();

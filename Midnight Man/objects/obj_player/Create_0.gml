@@ -10,4 +10,4 @@ jump_height = 50; // Minimum jump height/basic jump height (pretty self explanat
 max_jump_height = jump_height + 50; // Jump height with key held.
 can_teleport = true;
 // Set up power change
-alarm[0] = 30//(9000/60)*room_speed;
+alarm[0] = (9000/60)*room_speed;
